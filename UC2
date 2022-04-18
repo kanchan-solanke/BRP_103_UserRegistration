@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+
+</head>
+<body>
+
+<script>
+const reg = /^[A-Z]{1}[a-z]{3,}$/
+
+let str ="Solanke"
+
+let result = reg.exec(str)
+    console.log(result)
+
+if(reg.test(str))
+{
+     console.log("Matches the expression: "+str)
+}
+else
+{
+    console.log("First letter must be capital: "+str)
+}
+</script>
+</body>
+</html>
