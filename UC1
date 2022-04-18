@@ -6,9 +6,9 @@
 <body>
 
 <script>
-const reg = /^[A-Z]{3}[a-z]{4,}$/
+const reg = /^[A-Z]{1}[a-z]{3,}$/
 
-let str ="KANchan"
+let str ="Kanchan"
 
 let result = reg.exec(str)
     console.log(result)
@@ -19,7 +19,7 @@ if(reg.test(str))
 }
 else
 {
-    console.log("First three letter must be capital: "+str)
+    console.log("First letter must be capital: "+str)
 }
 </script>
 </body>
